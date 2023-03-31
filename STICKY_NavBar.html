@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    
+   }
+   body{
+       background: #000;
+       min-height: 200vh;
+
+   }
+   header{
+       background-color: #fff;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       display: flex;
+       justify-content: "space-between";
+       align-items: center;
+       transition: 0.6s;
+       padding: 10px ;
+       z-index: 100000;
+   }
+   header .logo{
+       position: relative;
+       font-weight: 700;
+       color: black;
+       text-decoration: none;
+       font-size: 2em;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       transition: 0.6s;
+   }
+   header ul{
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   header ul li{
+    position: relative;
+    list-style: none;
+   }
+   header ul li a{
+    position: relative;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+   }
+.B{
+    padding-left: 0px;
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <a href="https://www.playstation.com/en-in/" class="logo"><img src="https://img.icons8.com/ios-glyphs/32/000000/play-station.png"/></a>
+        <ul>
+            <li><a class="B" href="#">Game overview</a></li>
+            <li><a href="#">Character</a></li>
+            <li><a href="#">official guide</a></li>
+            <li><a href="#">shots and video</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+</body>
+</html>
