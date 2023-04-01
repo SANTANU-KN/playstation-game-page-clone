@@ -420,7 +420,11 @@ video {
 td {
   width: 2000px;
 }
-a {
+a:link{
+  text-decoration: none;
+}
+
+a{
   color: aliceblue;
 }
 /*BUY */
