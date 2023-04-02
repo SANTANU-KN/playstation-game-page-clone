@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+body {
+  margin: 0;
+  font-size: "viewport";
+  flex-wrap: nowrap;
+}
+.logo {
+  color: Hex #0070d1;
+}
+.logo:hover {
+  box-shadow: 2px 2px 2px 2px Hex #0070d1;
+}
+.navbar {
+  font-family: "Orbitron", sans-serif;
+  background-color: #57606c;
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  font-size: 11px;
+}
+.navbar ul {
+  padding-top: 10px;
+  padding-right: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li {
+  position: relative;
+  list-style: none;
+}
+.navbar ul li a {
+  position: relative;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(237, 233, 233);
+  transition: 0.6s;
+}
+.navbar ul li a:hover {
+  color: Hex #0070d1;
+}
+
+.navbar a:hover {
+  color: Hex #0070d1;
+}
+.like {
+  margin-right: 20px;
+  border: 1px solid black;
+  border: hidden;
+}
+.cart {
+  padding-right: 20px;
+  border: 1px solid black;
+  border: hidden;
+}
+.Sign {
+  border-radius: 30px;
+  background-color: rgb(0, 57, 156);
+  width: 90px;
+  height: 30px;
+  box-shadow: inset 0 0 0 0 rgb(2, 2, 2);
+  color: #fff;
+  cursor: pointer;
+  transition: ease-out 0.1s;
+  margin-right: 10px;
+  font-size: 17px;
+}
+.Sign:hover {
+  background-color: rgb(6, 1, 73);
+}
+.search {
+  margin-right: 10px;
+  border: 2px double black;
+  border-radius: 3px;
+  color: black;
+}
+.search:hover {
+  box-shadow: 1px 1px 1px 1px Hex #0070d1;
+}

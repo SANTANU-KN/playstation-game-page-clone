@@ -1,0 +1,17 @@
+.game-awards {
+    background-image: url(p10.webp);
+    background-size: 1620px 600px;
+    height: 600px;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+  }
+  .ga {
+    margin-left: 890px;
+    padding-top: 90px;
+  }
+  .cat {
+    font-size: 13px;
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+    font-weight: 90;
+  }

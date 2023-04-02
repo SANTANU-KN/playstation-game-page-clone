@@ -1,0 +1,12 @@
+.ps {
+    text-align: center;
+    color: white;
+    padding-right: 60px;
+  }
+  #aftermath {
+    background-color: rgb(56, 55, 55);
+    width: 1520px;
+    height: 530px;
+    background-image: url(play.gif);
+    background-size: auto;
+  }

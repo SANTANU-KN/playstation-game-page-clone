@@ -1,0 +1,70 @@
+.buyall {
+    height: fit-content;
+    background-color: #3c3b3b;
+  }
+  .buy {
+    padding-top: 20px;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+    text-align: center;
+  }
+  .buy-cntnr {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+  .buy-card {
+    background-color: #000000;
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .buy-image {
+    background-image: url(r2.jpg);
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .buy_h {
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+  }
+  .buy_li {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+  }
+  .buy-price {
+    margin-left: 50px;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+    margin-top: 160px;
+  }
+  .buy-pricex {
+    margin-left: 50px;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+    margin-top: 90px;
+  }
+  .adc {
+    background-color: #cd3d0f;
+    font-family: Orbitron, sans-serif;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .adc:hover {
+    transition: all is ease;
+    background-color: #860000;
+  }

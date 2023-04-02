@@ -1,0 +1,21 @@
+.b4-tab {
+    font-family: Orbitron, sans-serif;
+    background-color: #2d64e6;
+    color: aliceblue;
+    padding: 20px;
+  }
+  
+  .tabl1 {
+    padding: 20px;
+    text-align: left;
+  }
+  td {
+    width: 2000px;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  
+  a{
+    color: aliceblue;
+  }
